@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    width: 1440px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+.container-logo{
+    background-color: #FFC107;
+    text-align: center;
+}
+nav{
+    background-color: #FFA000;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu-item{
+    display: inline;
+}
+.menu-item-link{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin:10px 30px;
+    text-transform: lowercase;
+}
+
+main{
+    display: flex;
+    align-items: stretch;
+    width: 592px;
+    gap: 192px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FFA000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.tag-receitas {
+    color: #176902;
+    border: 1px solid #176902;
+    border-radius: 47px;
+    padding: 5px 10px;
+
+}
+#preparo{
+    margin-top: 25px;
+}
+.ingrediente-receitas span {
+    font-weight: 700;
+}
+.sugestoes {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-top: 42px;
+}
+
+.titulo-sugestoes {
+    color: #FFA000;
+    font-weight: 500;
+    font-size: 30px;    
+}
+
+.figura-sidebar1 {
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 26px;
+    margin-bottom: 45px;
+}
+.figura-sidebar2 {
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 26px;
+    margin-bottom: 45px;
+}
+.figura-sidebar3 {
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 26px;
+}
+
+.rodape {
+    background-color: #FFC107;
+    display: flex;
+    color: white;
+}
+
+.texto-rodape {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 38px;
+    margin-top: 25px;
+}
