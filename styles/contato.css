@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+}
+.container-logo{
+    background-color: #FFC107;
+    text-align: center;
+}
+nav{
+    background-color: #FFA000;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu-item{
+    display: inline;
+}
+.menu-item-link{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin:10px 30px;
+    text-transform: lowercase;
+}
+
+.banner-principal{
+    background-image: url(/images/banner-principal.png);
+    background-size: cover;
+    height: 400px;
+    padding: 30px;
+}
+.banner-principal h1{
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+.formulario-conatiner{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+    margin: 100px auto;
+}
+.banner-lateral{
+    background-image: url(/images/banner-lateral.png);
+    background-size: cover;
+    width: 20%;
+    height: 800px;
+    border-radius: 20px;
+}
+.formulario-conatiner form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 20px;
+    gap: 10px;
+}
+h2{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFC107;
+    margin-bottom: 30px;
+}
+form{
+    border-radius: 20px;
+    border: 1px solid #FFC107;
+}
+input, textarea{
+    border: 1px solid #FFC107;
+    border-radius: 5px;   
+    padding: 15px;
+    font-family: 'Nunito';
+    font-size: 16px;
+}
+textarea{
+    height: 278px;
+}
+.formulario-conatiner form button{
+    width: 15%;
+    margin-top: 20px;
+    color: #fff;
+    border: 1px solid #FFC107;
+    background-color: #FFC107;
+    border-radius: 47px;
+    padding: 5px 10px;
+}
+
+.rodape {
+    background-color: #FFC107;
+    display: flex;
+    color: white;
+}
+
+.texto-rodape {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 38px;
+    margin-top: 25px;
+}
